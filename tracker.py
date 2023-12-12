@@ -75,7 +75,6 @@ def update_tracker(target_detector, image):
             face_bboxes.append(
                 (x1, y1, x2, y2)
             )
-
     ids2delete = []
     for history_id in target_detector.faceTracker:
         if not history_id in current_ids:

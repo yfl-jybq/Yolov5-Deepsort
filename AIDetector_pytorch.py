@@ -64,5 +64,7 @@ class Detector(baseDet):
                     pred_boxes.append(
                         (x1, y1, x2, y2, lbl, conf))
 
+                    print(pred_boxes)
+
         return im, pred_boxes
 
